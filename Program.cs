@@ -358,7 +358,7 @@ namespace Projeto_Final
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nMe chamo Thiago, atualmente tenho 16 anos, estou no 2° Ano do ensino médio, estou cursando informática na Etec Adolpho Berezin.\n ");
 
-            Console.WriteLine("Link do site do projeto:https://github.com/ThiagoRibeiro16/Projeto-Final\n");
+            Console.WriteLine("Link do site do projeto:https://thiagoribeiro16.github.io/Projeto-Final/\n");
             Console.ResetColor();
         }
 
