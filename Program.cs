@@ -12,7 +12,7 @@ namespace Projeto_Final
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("---------------------");
-            Console.WriteLine("Calcuradora Alpha 365");
+            Console.WriteLine("Calculadora Alpha 365");
             Console.WriteLine("---------------------\n");
             Console.ResetColor();
 
@@ -283,6 +283,13 @@ namespace Projeto_Final
                 Console.ResetColor();
             }
 
+            else if (base1 == 0 )
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Não é possível ter potência de ({base1})");
+                Console.ResetColor();
+            }
+            
             else
             {
                 double potencia = Math.Pow(base1, expoente);
@@ -292,8 +299,6 @@ namespace Projeto_Final
                 Console.ResetColor();
 
             }
-
-
 
 
         }
@@ -321,6 +326,14 @@ namespace Projeto_Final
                 Console.ResetColor();
             }
 
+            else if (numero1 < 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"\nNão existe raiz de números negativos ({numero1}) .\n");
+                Console.ResetColor();
+            }
+            
+
             else
             {
                 double resultado = Math.Sqrt(numero1);
@@ -329,7 +342,6 @@ namespace Projeto_Final
                 Console.WriteLine($"\nA raiz quadrada de {numero1} é {resultado}.\n");
                 Console.ResetColor();
             }
-
 
 
 
@@ -346,7 +358,7 @@ namespace Projeto_Final
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nMe chamo Thiago, atualmente tenho 16 anos, estou no 2° Ano do ensino médio, estou cursando informática na Etec Adolpho Berezin.\n ");
 
-            Console.WriteLine("Link do site do projeto: \n");
+            Console.WriteLine("Link do site do projeto:https://github.com/ThiagoRibeiro16/Projeto-Final\n");
             Console.ResetColor();
         }
 
@@ -355,7 +367,7 @@ namespace Projeto_Final
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nSaindo do programa...\n");
-            Console.WriteLine("Obrigado por utilizar a calcuradora Alpha 365.");
+            Console.WriteLine("Obrigado por utilizar a calculadora Alpha 365.");
             Console.WriteLine("----------------------------------------------\n");
             Console.ResetColor();
         }

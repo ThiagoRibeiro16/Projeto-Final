@@ -1,12 +1,13 @@
 # Calculadora Alpha 365
-Este software contem um menu de opções selecionáveis pelo usuário e faz operações matemáticas. 
+Este software contem um menu de opções selecionáveis pelo usuário e faz operações matemáticas. As quatro operações aritméticas básicas (soma, subtração, multiplicação e divisão);
+E   xponenciação e radiciação;. 
 
 
 ## Exemplo
 
 ```
 ---------------------
-Calcuradora Alpha 365
+Calculadora Alpha 365
 ---------------------
 
 
@@ -45,15 +46,20 @@ Digite o segundo número: 80
 A soma de 20 + 80 = 100.
 
 
+Sobre
+------------
 
 Me chamo Thiago, atualmente tenho 16 anos, estou no 2° Ano do ensino médio, estou cursando informática na Etec Adolpho Berezin.
  
-Link do site do projeto: 
+Link do site do projeto:https://github.com/ThiagoRibeiro16/Projeto-Final
 
+
+Sair
+-----------
 
 Saindo do programa...
 
-Obrigado por utilizar a calcuradora Alpha 365.
+Obrigado por utilizar a calculadora Alpha 365.
 ----------------------------------------------
 
 
@@ -67,9 +73,9 @@ Obrigado por utilizar a calcuradora Alpha 365.
 
 ![Tela ex operação](telasoma.png)
 
-![Tela Sobre](telasobre.png)
+![Tela Sobre](sobre.png)
 
-![Tela Sair](telasair.png)
+![Tela Sair](sair.png)
 
 
 
@@ -78,7 +84,7 @@ Obrigado por utilizar a calcuradora Alpha 365.
 
 Baixe o arquivo abaixo. Descompacte na paste desejada.
 
-[🔽 Download do arquivo .zip](dist/CalculadoraAlpha365.zip)
+[🔽 Download do arquivo .zip](dist/CalculadoraAlpha.zip)
 
 Execulte utilizando o comando:
 
